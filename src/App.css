@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: var(--color-font);
+}
+
+:root {
+  --color-main: #091413;
+  --color-secondary: #285a48;
+  --color-third: #408a71;
+  --color-font: #b0e4cc;
+}
+
+main {
+  background-color: var(--color-secondary);
+  min-height: 100vh;
+}
+
+.web-intro {
+  text-align: center;
+  background-color: var(--color-main);
+  padding: 3rem;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 1rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.panel {
+  background-color: var(--color-main);
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.panel h2 {
+  padding: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+input {
+  color: var(--color-main);
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.song-list {
+  margin-top: 1.3rem;
+  padding: 0;
+}
+
+.song-item {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  border-bottom: 1px dotted var(--color-font);
+}
+
+.song-item p {
+  margin: 0.25rem 0 0;
+}
+
+.add-btn {
+  height: 30px;
+  width: 30px;
+  color: var(--color-main);
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.create-btn {
+  margin-top: 1.5rem;
+  color: var(--color-main);
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+
+.new-playlist {
+  color: var(--color-main);
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.search-btn {
+  margin-top: 1.5rem;
+  color: var(--color-main);
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
